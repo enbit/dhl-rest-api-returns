@@ -1,0 +1,29 @@
+{
+    "name": "enbit/dhl-returns-rest-api",
+    "description": "DHL Retoure Rest API",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "sdk",
+        "DHL",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://entwickler.dhl.de/group/ep/wsapis/retouren",
+    "authors": [
+        {
+            "name": "Ahmad Saad Aldin",
+            "email": "as@enbit.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Enbit\\Dhl\\Retoure\\": "src/"
+        }
+    }
+}
