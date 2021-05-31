@@ -17,7 +17,7 @@ The DHL Paket Retoure API SDK package offers an interface to the following web s
 ## Installation
 
 ```bash
-$ composer require enbit/dhl-rest-api-returns
+$ composer require enbit/dhl-returns-rest-api
 ```
 
 ## Features
